@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    // background-color: aqua;
+}
+
+// sidebar css
+
+.aside_wrrapper{
+    height: 100vh;
+    border-right: 2px solid gray;
+    background-color: black;
+    color: white;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+.login_wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.login_data{
+
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 25px;
+}
+
+
+.show_todos{
+    background-color: blue;
+    // background-image: linear-gradient(red, yellow);
+    
+    color: white;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 14px;
+    border-radius: 5px;
+}
+
+.todo_input_style:focus{
+   background-color: aliceblue !important;
+   box-shadow: 5px 4px 6px 7px #888888 !important;
+
+}
+
+.todo_input_style::placeholder{
+    font-weight: 800;
+}
+
+.list_style {
+    list-style-type: none !important;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: gray;
+    transition: all 0.3s linear;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list_style:hover{
+   background-color: white; 
+   color: black;
+}
+
+
+.parent_hideshow_style{
+  position: relative;
+}
+
+.span_hide_style{
+  position: absolute;
+  top: 0;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.form_control{
+    padding: 5px 20px;
+    border-radius: 9px;
+
+}
+
+.loader_view{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_ratio{
+    height: 100px;
+    width: 100px;
+
+}
+
+.card_style{
+    transition: all 0.3s linear;
+    cursor: pointer;
+
+}
+
+.card_style:hover{
+    background-color: #888888;
+    color: white;
+    transform:translateY(3px);
+}
+
+.product_section{
+    overflow-x: hidden;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.list_data{
+    border: 2px solid black;
+    margin-bottom: 9px;
+    padding: 20px;
+    border-radius: 9px;
+    transition: all 0.3s linear;
+}
+
+.list_data:hover{
+  border: none;
+}
+
+.img_fluid{
+   height: 100px !important;
+   width: 100px !important; 
+}
+
+.list_none{
+    list-style: none;
+}
+
+.span_header_text{
+    display: inline-block;
+    background-color: pink;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.category_span_plus_button{
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    transition: all 0.3s linear;
+}
+
+.category_span_plus_button:hover{
+    color: white;
+    background-color: black;
+}
+
+.modal-content{
+    background-color: black !important;
+    color: white !important;
+}
+
+
+.height_100{
+    height: 100vh;
+}
+
+.category_para{
+    border: 2px solid gray;
+    text-transform: capitalize;
+    padding: 10px;
+    border-radius: 9px;
+    // box-shadow: 4px 5px 6px 4px  gray;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.3s linear;
+}
+
+
+.category_para:hover{
+   color: blue;
+   background-color: aliceblue;
+}
+
+
+
+
